@@ -4,10 +4,6 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ## Overview
 
-### Screenshot
-
-![Screenshot](./screenshot.jpg)
-
 ### Links
 
 - Live Page URL: [See on Pages GitHub](https://canoist.github.io/Interactive-rating-component/)
