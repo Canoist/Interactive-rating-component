@@ -6,7 +6,7 @@ const finalCard = document.querySelector(".center");
 ul.addEventListener("click", (event) => {
   const liAll = document.querySelectorAll("li");
   liAll.forEach((li) => li.classList.remove("selected"));
-  result.textContent = `You selected out ${event.target.innerText} of 5`;
+  result.textContent = `You selected ${event.target.innerText} out of 5`;
   event.target.classList.add("selected");
 });
 
