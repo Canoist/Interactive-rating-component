@@ -114,23 +114,12 @@ ul {
 li {
   cursor: pointer;
 }
-li p {
-  position: relative;
-  top: 0.1rem;
-}
 li:hover {
   background-color: hsl(25, 97%, 53%);
 }
 .selected {
   background-color: hsl(217, 12%, 63%);
   color: white;
-}
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
 }
 button {
   width: 100%;
@@ -144,40 +133,6 @@ button {
 button:active {
   background-color: white;
   color: hsl(25, 97%, 53%);
-}
-
-@media (min-width: 375px) {
-  .card {
-    width: 328px;
-    padding: 30px 25px;
-  }
-  .round {
-    height: 44px;
-    width: 44px;
-  }
-  h3 {
-    margin: 22px 0px 16px;
-  }
-  ul {
-    margin: 26px auto 22px;
-  }
-}
-
-@media (min-width: 900px) {
-  .card {
-    width: 414px;
-    padding: 32px;
-  }
-  .round {
-    height: 50px;
-    width: 50px;
-  }
-  h3 {
-    margin: 35px 0px 23px;
-  }
-  ul {
-    margin: 30px auto;
-  }
 }
 
 .center {
@@ -196,6 +151,58 @@ button:active {
   background-color: hsl(213, 19%, 18%);
   color: hsl(25, 97%, 53%);
 }
+
 .hidden {
   display: none;
+}
+
+@media (min-width: 375px) {
+  .card {
+    width: 328px;
+    padding: 30px 25px;
+  }
+  .round {
+    height: 44px;
+    width: 44px;
+  }
+  h3 {
+    margin: 22px 0px 16px;
+  }
+  ul {
+    margin: 26px auto 22px;
+  }
+  .result {
+    width: 170px;
+    margin: 28px auto 0;
+  }
+}
+
+@media (min-width: 1400px) {
+  .card {
+    width: 414px;
+    padding: 32px;
+  }
+  .round {
+    height: 50px;
+    width: 50px;
+  }
+  h3 {
+    margin: 35px 0px 23px;
+  }
+  ul {
+    margin: 30px auto;
+  }
+  .result {
+    width: 194px;
+    margin: 28px auto 0;
+  }
+}
+
+.attribution {
+  margin-top: 35px;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
